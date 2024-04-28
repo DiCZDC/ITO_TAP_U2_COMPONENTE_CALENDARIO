@@ -117,14 +117,19 @@ La clase panelTiempoFechas se utiliza para mostrar un panel que permite al usuar
 
 # Proceso de instalación:
 1. Descarga la carpeta CalendarComp
-2. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
-3. Asegúrate de que el proyecto se compila sin errores para crear el `.jar` según la versión de tu Java.
+2. Importa el proyecto en NetBeans
+3. Asegúrate de que el proyecto se compila sin errores para crear el `.jar` de forma correcta.
 
 ## Uso
 1. Compila tu proyecto para crear el archivo `.jar`
 
+![imagen](https://github.com/DiCZDC/ITO_TAP_U2_COMPONENTE_CALENDARIO/assets/82064141/60eb6c20-7803-4001-b83e-8ab653248a13)
+
 2. Agrega el componente a tu paleta de componentes.
 Da click derecho en la paleta y selecciona *Palette Manager* y selecciona *Add From Jar* Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
+
+![imagen](https://github.com/DiCZDC/ITO_TAP_U2_COMPONENTE_CALENDARIO/assets/82064141/c0d2c288-1ff3-4338-848e-f9ee49622cbe)
+
 
 3. Ya está listo para usar y arrastrar a tus componentes
 
