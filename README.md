@@ -2,17 +2,17 @@
 Componente visual para Java, el cual permite crear un componente visual para introducir fechas. Se encuentra basado en las librerias `JFRAME` y `JDIALOG`
 ![image](https://github.com/DiCZDC/ITO_TAP_U2_COMPONENTE_CALENDARIO/assets/168324082/72f49cf5-8c51-48bd-b819-bc5109000f9e)
 
-### Descripción del Proyecto Panel Calendario
+## Descripción del Proyecto Panel Calendario
 
 El proyecto Panel Calendario es una herramienta de interfaz de usuario (UI) que proporciona a los usuarios la capacidad de seleccionar y manipular fechas de manera intuitiva a través de un panel de calendario interactivo. Desarrollado en Java utilizando componentes de la biblioteca Swing, este proyecto ofrece una solución flexible y fácil de usar para integrar funcionalidades relacionadas con fechas en aplicaciones de escritorio.
 
-### Requisitos para su Uso
+## Requisitos para su Uso
 
 - Java Development Kit (JDK) instalado en el sistema.
 - Conocimientos básicos de programación en Java y manejo de interfaces de usuario utilizando Swing.
 - Entorno de desarrollo integrado (IDE) compatible con Java, como Eclipse, IntelliJ IDEA o NetBeans.
 
-### Usos del Proyecto Panel Calendario
+## Usos del Proyecto Panel Calendario
 
 1. **Selección de Fechas**: Permite a los usuarios seleccionar fácilmente una fecha específica utilizando el panel de calendario interactivo.
    
