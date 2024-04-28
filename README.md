@@ -1,6 +1,8 @@
 # ITO_TAP_U2_COMPONENTE_CALENDARIO
 Componente visual para Java, el cual permite crear un componente visual para introducir fechas. Se encuentra basado en las librerias `JFRAME` y `JDIALOG`
+
 <img src ="https://github.com/DiCZDC/ITO_TAP_U2_COMPONENTE_CALENDARIO/blob/main/IMPORTANT_IMAGE.png" width=100>
+
 ## Descripción del Proyecto Panel Calendario
 
 El proyecto Panel Calendario es una herramienta de interfaz de usuario (UI) que proporciona a los usuarios la capacidad de seleccionar y manipular fechas de manera intuitiva a través de un panel de calendario interactivo. Desarrollado en Java utilizando componentes de la biblioteca Swing, este proyecto ofrece una solución flexible y fácil de usar para integrar funcionalidades relacionadas con fechas en aplicaciones de escritorio.
@@ -110,5 +112,22 @@ La clase panelTiempoFechas es un panel de interfaz de usuario (UI) que permite c
 
 ### Uso:  
 La clase panelTiempoFechas se utiliza para mostrar un panel que permite al usuario seleccionar dos fechas a través de dos paneles de calendario (panelCalendario). Luego, el usuario puede llamar a los métodos diasEntre(), mesesEntre() o aniosEntre() para calcular la diferencia en días, meses o años entre las dos fechas seleccionadas, respectivamente.
+
+
+
+# Proceso de instalación:
+1. Descarga la carpeta CalendarComp
+2. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
+3. Asegúrate de que el proyecto se compila sin errores para crear el `.jar` según la versión de tu Java.
+
+## Uso
+1. Compila tu proyecto para crear el archivo `.jar`
+
+2. Agrega el componente a tu paleta de componentes.
+Da click derecho en la paleta y selecciona *Palette Manager* y selecciona *Add From Jar* Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
+
+3. Ya está listo para usar y arrastrar a tus componentes
+
+4. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
 
 
