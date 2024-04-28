@@ -135,4 +135,8 @@ Da click derecho en la paleta y selecciona *Palette Manager* y selecciona *Add F
 
 4. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
 
+# Revisa el funcionamiento de nuestro programa :)
 
+# Autores
+- Zaid Díaz Cristóbal
+- Raul Chacón Melchor
