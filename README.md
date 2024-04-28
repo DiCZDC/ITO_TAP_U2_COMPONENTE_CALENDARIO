@@ -37,6 +37,8 @@ El proyecto Panel Calendario proporciona una solución versátil y eficiente par
 
 ## Clase: PanelCalendario
 
+La clase panelCalendario representa un panel de interfaz de usuario (UI) que permite seleccionar una fecha a través de un calendario.
+
 | FUNCIÓN | DESCRIPCIÓN |
 | --- | --- |
 | panelCalendario() | Constructor de la clase. Inicializa el panel de calendario y sus componentes, como los menús desplegables para el año y el mes. |
