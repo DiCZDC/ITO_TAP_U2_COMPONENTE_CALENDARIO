@@ -23,3 +23,36 @@ La clase panelCalendario representa un panel de interfaz de usuario (UI) que per
 | getDia() | Retorna el día seleccionado. |
 | getAnio() | Retorna el año seleccionado. |
 | getFechacomp() | Retorna la fecha seleccionada como objeto fecha. |
+
+
+## Clase: fecha  
+### Descripción:  
+La clase fecha extiende la clase Date y se utiliza para representar una fecha específica con métodos adicionales para obtener una representación de cadena de la fecha en formato legible.
+
+
+
+## Clase: dialogoDia  
+### Descripción:  
+La clase dialogoDia representa un cuadro de diálogo modal que permite al usuario seleccionar un día específico de la semana.
+
+
+
+## Clase: ventanaFecha  
+### Descripción:  
+La clase ventanaFecha representa un cuadro de diálogo modal que muestra un panel de calendario (panelCalendario) y un botón de aceptar.
+
+
+### Uso:  
+La clase ventanaFecha se utiliza para mostrar un cuadro de diálogo que permite al usuario seleccionar una fecha a través de un panel de calendario (panelCalendario). Una vez que el usuario ha seleccionado una fecha, puede presionar el botón "Aceptar" para cerrar el cuadro de diálogo y realizar alguna acción con la fecha seleccionada.
+
+
+
+## Clase: panelTiempoFechas  
+### Descripción:  
+La clase panelTiempoFechas es un panel de interfaz de usuario (UI) que permite calcular la diferencia en días, meses y años entre dos fechas seleccionadas utilizando dos paneles de calendario (panelCalendario).
+
+
+### Uso:  
+La clase panelTiempoFechas se utiliza para mostrar un panel que permite al usuario seleccionar dos fechas a través de dos paneles de calendario (panelCalendario). Luego, el usuario puede llamar a los métodos diasEntre(), mesesEntre() o aniosEntre() para calcular la diferencia en días, meses o años entre las dos fechas seleccionadas, respectivamente.
+
+
