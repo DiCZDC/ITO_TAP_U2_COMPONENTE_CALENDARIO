@@ -28,18 +28,39 @@ La clase panelCalendario representa un panel de interfaz de usuario (UI) que per
 ## Clase: fecha  
 ### Descripción:  
 La clase fecha extiende la clase Date y se utiliza para representar una fecha específica con métodos adicionales para obtener una representación de cadena de la fecha en formato legible.
+| Función               | Descripción                                                                                                                                                   |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `fecha()`             | Constructor de la clase. Inicializa el calendario con la fecha actual.                                                                                         |
+| `setDate(int date)`   | Establece el día de la fecha.                                                                                                                                 |
+| `setMonth(int month)` | Establece el mes de la fecha.                                                                                                                                 |
+| `setYear(int year)`   | Establece el año de la fecha.                                                                                                                                 |
+| `toString()`          | Retorna una representación en formato legible de la fecha, incluyendo el día de la semana, el día del mes, el mes y el año.                                  |
 
 
 
 ## Clase: dialogoDia  
 ### Descripción:  
 La clase dialogoDia representa un cuadro de diálogo modal que permite al usuario seleccionar un día específico de la semana.
+| Función               | Descripción                                                                                                                                                   |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `dialogoDia(Frame parent, boolean modal, int lenght, int d)` | Constructor de la clase. Crea un cuadro de diálogo para seleccionar un día específico de la semana.                                                      |
+| `btnAceptarAct()`     | Obtiene el día seleccionado por el usuario y cierra el cuadro de diálogo.                                                                                     |
+| `getDiaElegido()`     | Retorna el día seleccionado por el usuario.                                                                                                                   |
+| `CreacionVentana()`   | Crea la interfaz gráfica del cuadro de diálogo con botones de selección de día y un botón de aceptar.                                                        |
 
 
 
 ## Clase: ventanaFecha  
 ### Descripción:  
 La clase ventanaFecha representa un cuadro de diálogo modal que muestra un panel de calendario (panelCalendario) y un botón de aceptar.
+| Función               | Descripción                                                                                                                                                   |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `ventanaFecha(Frame parent, boolean modal)` | Constructor de la clase. Crea un nuevo cuadro de diálogo modal.                                                                                                 |
+| `btnAceptarActionPerformed()` | Método ejecutado cuando se presiona el botón de aceptar. Cierra el cuadro de diálogo.                                                                         |
+| `getMes()`            | Retorna el mes seleccionado en el panel de calendario.                                                                                                         |
+| `getDia()`            | Retorna el día seleccionado en el panel de calendario.                                                                                                         |
+| `getAnio()`           | Retorna el año seleccionado en el panel de calendario.                                                                                                         |
+| `main(String args[])` | Método principal de la clase. Crea una instancia de `ventanaFecha` y la muestra.                                                                               |
 
 
 ### Uso:  
@@ -50,6 +71,12 @@ La clase ventanaFecha se utiliza para mostrar un cuadro de diálogo que permite 
 ## Clase: panelTiempoFechas  
 ### Descripción:  
 La clase panelTiempoFechas es un panel de interfaz de usuario (UI) que permite calcular la diferencia en días, meses y años entre dos fechas seleccionadas utilizando dos paneles de calendario (panelCalendario).
+| Función               | Descripción                                                                                                                                                   |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `panelTiempoFechas()` | Constructor de la clase. Inicializa el panel de tiempo de fechas y sus componentes, como los dos paneles de calendario.                                     |
+| `diasEntre()`         | Calcula la diferencia en días entre las dos fechas seleccionadas en los paneles de calendario.                                                               |
+| `mesesEntre()`        | Calcula la diferencia en meses entre las dos fechas seleccionadas en los paneles de calendario.                                                             |
+| `aniosEntre()`        | Calcula la diferencia en años entre las dos fechas seleccionadas en los paneles de calendario.                                                               |
 
 
 ### Uso:  
