@@ -1,13 +1,41 @@
 # ITO_TAP_U2_COMPONENTE_CALENDARIO
 Componente visual para Java, el cual permite crear un componente visual para introducir fechas. Se encuentra basado en las librerias `JFRAME` y `JDIALOG`
 ![image](https://github.com/DiCZDC/ITO_TAP_U2_COMPONENTE_CALENDARIO/assets/168324082/72f49cf5-8c51-48bd-b819-bc5109000f9e)
-# Documentación
 
-## panelCalendario
+### Descripción del Proyecto Panel Calendario
 
-### Descripción:
+El proyecto Panel Calendario es una herramienta de interfaz de usuario (UI) que proporciona a los usuarios la capacidad de seleccionar y manipular fechas de manera intuitiva a través de un panel de calendario interactivo. Desarrollado en Java utilizando componentes de la biblioteca Swing, este proyecto ofrece una solución flexible y fácil de usar para integrar funcionalidades relacionadas con fechas en aplicaciones de escritorio.
 
-La clase panelCalendario representa un panel de interfaz de usuario (UI) que permite seleccionar una fecha a través de un calendario.
+### Requisitos para su Uso
+
+- Java Development Kit (JDK) instalado en el sistema.
+- Conocimientos básicos de programación en Java y manejo de interfaces de usuario utilizando Swing.
+- Entorno de desarrollo integrado (IDE) compatible con Java, como Eclipse, IntelliJ IDEA o NetBeans.
+
+### Usos del Proyecto Panel Calendario
+
+1. **Selección de Fechas**: Permite a los usuarios seleccionar fácilmente una fecha específica utilizando el panel de calendario interactivo.
+   
+2. **Rango de Fechas**: Facilita la selección de un rango de fechas, ya sea para aplicaciones de reserva, planificación de eventos o análisis de datos.
+
+3. **Cálculo de Diferencias de Fechas**: Ofrece la capacidad de calcular la diferencia en días, meses o años entre dos fechas seleccionadas, útil para aplicaciones de seguimiento de tiempo, gestión de proyectos o análisis temporal.
+
+4. **Integración con Aplicaciones de Gestión**: Puede integrarse en aplicaciones de gestión de tareas, calendarios personales o planificadores para mejorar la experiencia del usuario en la gestión del tiempo.
+
+5. **Visualización de Calendarios**: Proporciona una vista de calendario interactiva para mostrar eventos, citas o actividades planificadas, mejorando la visualización y navegación del calendario.
+
+6. **Registro de Eventos**: Permite a los usuarios registrar eventos o actividades en fechas específicas seleccionadas a través del panel de calendario, facilitando la organización y planificación.
+
+7. **Personalización de la Interfaz de Usuario**: Ofrece la posibilidad de personalizar la apariencia y el comportamiento del panel de calendario según las necesidades específicas de la aplicación o el usuario.
+
+8. **Compatibilidad Multiplataforma**: Al estar desarrollado en Java, el proyecto Panel Calendario es compatible con múltiples plataformas, lo que permite su uso en sistemas Windows, macOS y Linux sin cambios significativos.
+
+El proyecto Panel Calendario proporciona una solución versátil y eficiente para integrar funcionalidades relacionadas con fechas en aplicaciones de escritorio Java, mejorando la experiencia del usuario y la funcionalidad de las aplicaciones que lo utilizan.
+
+
+# API del proyecto
+
+## Clase: PanelCalendario
 
 | FUNCIÓN | DESCRIPCIÓN |
 | --- | --- |
